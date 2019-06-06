@@ -1,0 +1,8 @@
+/.git
+/node_modules
+/src
+/.gitignore
+/.npmignore
+/.travis.yml
+/webpack.config.js
+/yarn-error.log
