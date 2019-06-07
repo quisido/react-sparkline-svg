@@ -1,8 +1,13 @@
 /.git
 /node_modules
 /src
+/.babelrc
 /.gitignore
 /.npmignore
 /.travis.yml
+/package-lock.json
+/tsconfig.json
 /webpack.config.js
+/yarn.lock
+/yarn-debug.log
 /yarn-error.log

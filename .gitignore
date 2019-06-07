@@ -1,4 +1,6 @@
 /.git
 /node_modules
+/index.d.ts
 /index.js
+/yarn-debug.log
 /yarn-error.log
