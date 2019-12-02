@@ -1,4 +1,4 @@
-# React Sparkline SVG
+# React Sparkline SVG  [![version](https://img.shields.io/npm/v/react-sparkline-svg.svg)](https://www.npmjs.com/package/react-sparkline-svg) [![minzipped size](https://img.shields.io/bundlephobia/minzip/react-sparkline-svg.svg)](https://www.npmjs.com/package/react-sparkline-svg) [![downloads](https://img.shields.io/npm/dt/react-sparkline-svg.svg)](https://www.npmjs.com/package/react-sparkline-svg) [![build](https://api.travis-ci.com/CharlesStover/react-sparkline-svg.svg)](https://travis-ci.com/CharlesStover/react-sparkline-svg/)
 
 A React Component that renders a sparkline as an SVG.
 
