@@ -19,72 +19,107 @@ function App() {
 
 ## Props
 
-* decimals?: number
-  Sets the number of decimal places used to generate the sparkline. A larger
-  number of decimal places will result in better precision, but more memory.
+### decimals
 
-  _Default: 4_
+_Optional_ number
 
-* desc?: string
-  Sets the description of the sparkline. Used to populate the `<desc>` element.
+Sets the number of decimal places used to generate the sparkline. A larger
+number of decimal places will result in better precision, but more memory.
 
-  _Default: 'A line graph representation of a value\'s change over time.'
+_Default: 4_
 
-* fill?: string
-  Sets the color of the area underneath the sparkline.
+### desc
 
-  _Default: 'transparent'_
+_Optional_ string
 
-* height?: number
-  Sets the height of the sparkline's SVG element. Not to be confused with
-  `viewBoxHeight`.
+Sets the description of the sparkline. Used to populate the `<desc>` element.
 
-  _Default: '100%'_
+_Default: 'A line graph representation of a value\'s change over time.'
 
-* preserveAspectRatio?: string
-  Sets the `preserveAspectRatio` attribute of the SVG element.
+### fill
 
-  _Default: 'none'_
+_Optional_ string
 
-* stroke?: string
-  Sets the color of the sparkline itself.
+Sets the color of the area underneath the sparkline.
 
-  _Default: 'currentColor'_
+_Default: 'transparent'_
 
-* strokeWidth?: number | string
-  Sets the width of the sparkline itself. If using a number, this will be
-  relative to the view box height and width.
+### height
 
-  _Default: '1%'_
+_Optional_ number
 
-* title?: string
-  Sets the title of the sparkline SVG by populating the <title> element. This
-  is useful for accessibility purposes and often appears as a tooltip, similar
-  to the title attribute on an anchor tag.
+Sets the height of the sparkline's SVG element. Not to be confused with
+`viewBoxHeight`.
 
-  _Default: 'Sparkline'_
+_Default: '100%'_
 
-* values: number[]
+### preserveAspectRatio
 
-  Sets the values used to generate the sparkline.
+_Optional_ string
 
-* viewBoxHeight?: number
-  Sets the height of the sparkline's view box. Not to be confused with
-  `height`. The sparkline will always stretch to fit the view box.
+Sets the `preserveAspectRatio` attribute of the SVG element.
 
-  _Default: 100_
+_Default: 'none'_
 
-* viewBoxWidth?: number
-  Sets the width of the sparkline's view box. Not to be confused with `width`.
-  The sparkline will always stretch to fit the view box.
+### stroke
 
-  _Default: 100_
+_Optional_ string
 
-* width?: string
-  Sets the width of the sparkline's SVG element. Not to be confused with
-  `viewBoxWidth`.
+Sets the color of the sparkline itself.
 
-  _Default: '100%'_
+_Default: 'currentColor'_
+
+### strokeWidth
+
+_Optional_ number or string
+
+Sets the width of the sparkline itself. If using a number, this will be
+relative to the view box height and width.
+
+_Default: '1%'_
+
+### title
+
+_Optional_ string
+
+Sets the title of the sparkline SVG by populating the <title> element. This
+is useful for accessibility purposes and often appears as a tooltip, similar
+to the title attribute on an anchor tag.
+
+_Default: 'Sparkline'_
+
+### values
+
+_Required_ array of numbers
+
+Sets the values used to generate the sparkline.
+
+### viewBoxHeight
+
+_Optional_ number
+
+Sets the height of the sparkline's view box. Not to be confused with
+`height`. The sparkline will always stretch to fit the view box.
+
+_Default: 100_
+
+### viewBoxWidth
+
+_Optional_ number
+
+Sets the width of the sparkline's view box. Not to be confused with `width`.
+The sparkline will always stretch to fit the view box.
+
+_Default: 100_
+
+### width
+
+_Optional_ string
+
+Sets the width of the sparkline's SVG element. Not to be confused with
+`viewBoxWidth`.
+
+_Default: '100%'_
 
 ## Sponsor 💗
 
