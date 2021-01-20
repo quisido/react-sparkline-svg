@@ -34,7 +34,7 @@ _Optional_ string
 
 Sets the description of the sparkline. Used to populate the `<desc>` element.
 
-_Default: 'A line graph representation of a value\'s change over time.'
+_Default: 'A line graph representation of a value\'s change over time.'_
 
 ### fill
 
