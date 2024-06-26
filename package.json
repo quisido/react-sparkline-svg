@@ -28,6 +28,6 @@
     "typescript": "^3.5.1"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": ">=16 <=19"
   }
 }
