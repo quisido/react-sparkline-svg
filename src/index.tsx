@@ -31,8 +31,10 @@ export default function Sparkline({
   width = '100%',
 }: ISparklineProps): JSX.Element {
 
-  // Create a Sparkline by only providing the properties required to generate
-  //   the `d` attribute of the `<path />` elements.
+  /**
+   *   Create a Sparkline by only providing the properties required to generate
+   * the `d` attribute of the `<path />` elements.
+   */
   const sparkline: SparklineSvg = new SparklineSvg(values);
   sparkline.setDecimals(decimals);
   sparkline.setViewBoxHeight(viewBoxHeight);

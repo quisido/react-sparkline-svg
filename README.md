@@ -1,6 +1,6 @@
-# React Sparkline SVG  [![version](https://img.shields.io/npm/v/react-sparkline-svg.svg)](https://www.npmjs.com/package/react-sparkline-svg) [![minzipped size](https://img.shields.io/bundlephobia/minzip/react-sparkline-svg.svg)](https://www.npmjs.com/package/react-sparkline-svg) [![downloads](https://img.shields.io/npm/dt/react-sparkline-svg.svg)](https://www.npmjs.com/package/react-sparkline-svg) [![build](https://api.travis-ci.com/CharlesStover/react-sparkline-svg.svg)](https://travis-ci.com/CharlesStover/react-sparkline-svg/)
+# React Sparkline SVG  [![version](https://img.shields.io/npm/v/react-sparkline-svg.svg)](https://www.npmjs.com/package/react-sparkline-svg) [![minzipped size](https://img.shields.io/bundlephobia/minzip/react-sparkline-svg.svg)](https://www.npmjs.com/package/react-sparkline-svg) [![downloads](https://img.shields.io/npm/dt/react-sparkline-svg.svg)](https://www.npmjs.com/package/react-sparkline-svg)
 
-A React Component that renders a sparkline as an SVG.
+A React Component that renders a sparkline as an SVG
 
 ## Install
 
@@ -9,7 +9,7 @@ A React Component that renders a sparkline as an SVG.
 
 ## Use
 
-```JavaScript
+```js
 import Sparkline from 'react-sparkline-svg';
 
 function App() {
@@ -120,9 +120,3 @@ Sets the width of the sparkline's SVG element. Not to be confused with
 `viewBoxWidth`.
 
 _Default: '100%'_
-
-## Sponsor 💗
-
-If you are a fan of this project, you may
-[become a sponsor](https://github.com/sponsors/CharlesStover)
-via GitHub's Sponsors Program.

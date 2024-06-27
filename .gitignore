@@ -1,5 +1,8 @@
-/.git
-/node_modules
+/.git/
+/.yarn/sdks/
+/.yarn/install-state.gz
+/node_modules/
+/.pnp.*
 /index.d.ts
 /index.js
 /yarn-debug.log
