@@ -1,11 +1,11 @@
 {
   "name": "react-sparkline-svg",
-  "version": "1.0.2",
-  "author": "Charles Stover <npmjs@charlesstover.com>",
-  "description": "A React Component that renders a sparkline as an SVG.",
+  "version": "1.0.3",
+  "author": "quisi.do <react-sparkline-svg@quisi.do>",
+  "description": "A React Component that renders a sparkline as an SVG",
   "license": "MIT",
   "main": "index.js",
-  "repository": "https://github.com/CharlesStover/react-sparkline-svg.git",
+  "repository": "https://github.com/quisido/react-sparkline-svg.git",
   "types": "index.d.ts",
   "files": [
     "index.d.ts",
@@ -28,6 +28,6 @@
     "typescript": "^3.5.1"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "*"
   }
 }
